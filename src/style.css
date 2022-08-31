@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: #bbb5df;
+}
+.front-main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.front-main button{
+    background-color: #5035FF;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.front-main button:hover{
+    opacity: .85;
+}
+.questions{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.check{
+    margin: 0 auto;
+    border: none;
+    padding: 10px 30px;
+    display: block;
+    margin-top: 50px;
+    background-color: #5035FF;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.check:hover{
+    opacity: .85;
+}
+.questions div button{
+    background-color: white;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 5px;
+}
+.quizzical{
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
