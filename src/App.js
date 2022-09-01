@@ -57,7 +57,7 @@ export default function App () {
             <h1 className="quizzical">Quizzical</h1>
             {problems}
             {!check&&<button onClick={gameOver} className="check">Check Answers</button>}
-            {check&&<button onClick={playAgain} className="check">Play Again</button>}
+            {check&&<button onClick={playAgain} className="check">Game Over</button>}
          </main>
     )
 }
